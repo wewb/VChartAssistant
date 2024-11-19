@@ -165,6 +165,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License 许可
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-本项目采用 MIT 许可证 - 详见 LICENSE 文件。
-```
+This project is licensed under the MIT License.
+本项目采用 MIT 许可证。
