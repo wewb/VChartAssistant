@@ -5,7 +5,7 @@ def test_ask():
     url = "http://localhost:8000/api/ask"
     
     data = {
-        "text": "What's Social Media “relationships” with customers?",
+        "text": "How can we using Vchart?",
         "chat_history": []  # 空列表作为初始对话历史
     }
     
