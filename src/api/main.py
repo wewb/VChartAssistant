@@ -15,7 +15,7 @@ from fastapi.templating import Jinja2Templates
 from fastapi import Request
 
 # 设置 OpenAI API key
-os.environ["OPENAI_API_KEY"] = "sk-shznpcktusnwqdzzsbwzoimnjwjgismyrgsyskxsglgwuesv"
+os.environ["OPENAI_API_KEY"] = ""
 os.environ["OPENAI_BASE_URL"] = "https://api.siliconflow.cn/v1"
 
 app = FastAPI()
