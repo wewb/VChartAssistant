@@ -7,7 +7,7 @@ from langchain_chroma import Chroma
 from tenacity import retry, stop_after_attempt, wait_exponential
 
 # 设置 OpenAI API key
-os.environ["OPENAI_API_KEY"] = "sk-shznpcktusnwqdzzsbwzoimnjwjgismyrgsyskxsglgwuesv"
+os.environ["OPENAI_API_KEY"] = ""
 os.environ["OPENAI_BASE_URL"] = "https://api.siliconflow.cn/v1"
 
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=10))
